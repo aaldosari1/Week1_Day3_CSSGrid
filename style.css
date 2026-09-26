@@ -1,13 +1,27 @@
+body{
+  background-color: rgb(224, 231, 238);
+}
+
 .products {
   display: grid;
   grid-template-columns: repeat(4, auto);
+  width: 65%;
+  margin: 0 auto;
+  
 }
 
 .products > div {
+  background-color: white;
   padding: 20px;
+  margin: 10px;
+  text-align: center;
+  
 }
 
 img {
-  width: 200px;
-  height: 300px;
+  width: 230px;
+  height: 270px;
+}
+h4{
+  margin: 0 0 7px;
 }
